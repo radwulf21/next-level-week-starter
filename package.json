@@ -1,0 +1,27 @@
+{
+  "name": "next-level-week-starter",
+  "version": "1.0.0",
+  "description": "Um sistema web de pontos coleta de resíduos sólidos, elabarado com JavaScript nas aulas do Next Level Week da Rocketseat.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radwulf21/next-level-week-starter.git"
+  },
+  "keywords": [],
+  "author": "Raul Andrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radwulf21/next-level-week-starter/issues"
+  },
+  "homepage": "https://github.com/radwulf21/next-level-week-starter#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

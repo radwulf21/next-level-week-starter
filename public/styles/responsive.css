@@ -1,0 +1,63 @@
+/* Responsividade para telas menores */
+@media (max-width: 900px) {
+    /* Responsividade para a index(Home) */
+    #page-home {
+        background-position-x: 70vw;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: -160px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 45px;
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+
+    /* Responsividade para a index(Modal) */
+
+    #modal .content {
+        margin: 0 20px 0 20px;
+    }
+
+    /* Responsividade para a search-results */
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Responsividade para a create-point */
+
+    #page-create-point form .field-group {
+        flex-direction: column;
+    }
+
+    #page-create-point form .field-group .field + .field {
+        margin-left: 0px;
+    }
+
+    .items-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Responsividade para telas maiores */
+@media (min-width:1700px) {
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-height: 760px) {
+    #page-home {
+        background-position-y: 200px;
+    }
+}

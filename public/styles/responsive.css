@@ -31,7 +31,7 @@
     /* Responsividade para a search-results */
 
     #page-search-results .cards {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     /* Responsividade para a create-point */
@@ -47,6 +47,16 @@
     .items-grid {
         grid-template-columns: 1fr;
     }
+
+    form input, form select {
+        width: 100%;
+    }
+
+    form button {
+        width: 100%;
+        height: 56px;
+    }
+    
 }
 
 /* Responsividade para telas maiores */

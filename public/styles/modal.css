@@ -95,3 +95,28 @@
 #modal form button:hover {
     background-color: #2fb86e;
 }
+
+/* Para o modal point created */
+
+#modal.point-created .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#modal.point-created h1 {
+    color: white;
+    margin-top: 28px;
+}
+
+/* Para o modal point error */
+
+#modal.point-error .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#modal.point-error h1 {
+    color: white;
+}
